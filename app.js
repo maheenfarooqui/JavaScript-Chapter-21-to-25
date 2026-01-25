@@ -163,6 +163,13 @@
 
 //16. Write a program to convert the following string to an array using string split method. var university = “University of Karachi”;
 //  Display the elements of array in your browser.
+// var myStr = "University of Karachi";
+// var letter = myStr.split("");
+// for(var i = 0 ; i <letter.length; i++){
+//     console.log(letter[i]);
+    
+// }
+
 
 // 17. Write a program to display the last character of a user input.
 // var userIn = prompt("enter your name");
@@ -174,6 +181,17 @@
 
 // 18. You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number
 //  of occurrences of word “the” in given string.
+
+// var myStr = "The quick brown fox jumps over the lazy dog";
+// myStr =myStr.toLowerCase();
+// var word = myStr.split(" ");
+// var occurrences= 0
+// for(var i = 0 ; i< word.length ; i++){
+//     if(word[i] === "the"){
+//         occurrences++ ;
+//     }
+// }
+// console.log(occurrences);
 
 
 
